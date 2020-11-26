@@ -16,4 +16,4 @@ function makeSquares(numSquares) {
     console.log(1024/numSquares);
 }
 
-makeSquares(32);
+makeSquares(48);
