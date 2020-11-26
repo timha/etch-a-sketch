@@ -9,11 +9,11 @@ function makeSquares(numSquares) {
         square.classList.add("square");
         // square.textContent = i + 1;
         square.addEventListener("mouseover", (e) => {
-            console.log(e);
+            square.style.backgroundColor = "red";
         });
         container.appendChild(square);
     }
     console.log(1024/numSquares);
 }
 
-makeSquares(24);
+makeSquares(32);
